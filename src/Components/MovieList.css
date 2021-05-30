@@ -1,0 +1,53 @@
+.moviegrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 60px;
+    grid-row-gap: 10px;
+   
+}
+.carde:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1); 
+  }
+
+
+.filter{
+    display: flex;
+     grid-Template-Columns:row;
+      
+     
+}
+.search
+{
+    width:250px;
+   
+   margin-bottom: 60px;
+   margin-left: -500px;
+}
+.star{
+    margin-top:30px; 
+    margin-left: 580px;
+}
+.cardimg{
+    width:18rem;
+    height: 369px;
+}
+.carde
+{
+    width : 18rem;
+    box-shadow:  8px 8px rgba(46, 44, 44, 0.089);
+    transition: 0.3s;
+    border-radius: 10px;
+    border-color: #0f0f0f;
+    
+}
+.cardbody{
+    
+    background-Color:#130101;
+    color: white;
+
+
+}
+.btn{
+    margin-Left:60px
+}
