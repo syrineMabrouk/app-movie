@@ -46,7 +46,7 @@ function App() {
 
 {
   id : uuidv4(),
-  title : "Bajrangi Bhaijaan",
+  title : "Five Feet Apart",
   description : "Five Feet Apart is a 2019 American romantic drama film directed by Justin Baldoni (in his directorial debut)[5] and written by Mikki Daughtry and Tobias Iaconis. The film was inspired by Claire Wineland, who suffered from cystic fibrosis.[6] Haley Lu Richardson and Cole Sprouse play two young patients with cystic fibrosis, who try to have a relationship despite always being forced to stay a certain distance (6 ft) away from each other. It was released in the United States on March 15, 2019 by CBS Films via Lionsgate.",
   posterUrl : "https://i.ytimg.com/vi/cdZEItD8WX0/maxresdefault.jpg",
   rating : 3
