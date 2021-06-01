@@ -1,14 +1,16 @@
 import React from 'react';
 import StarRatingComponent from 'react-star-rating-component';
-import {Card, Button } from 'react-bootstrap';
+import {Card} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './MovieList.css';
+import { Link } from 'react-router-dom';
 function MovieCard({movieCard}) {
     
     
     return (
 
         <div>
+            <Link to={`/description/${movieCard.id}`} style={{textDecoration:'none'}}>
             <Card className='carde'>
                 <Card.Img variant="top" src={movieCard.posterUrl} alt='movie_card' className='cardimg'/>
                 <Card.Body className="cardbody" >
@@ -18,7 +20,7 @@ function MovieCard({movieCard}) {
                  
                 </Card.Body>
             </Card>
-            
+            </Link>
         </div>    
     )
 }

@@ -55,6 +55,8 @@ const style={
     <Form.Control type="text" placeholder="title" name='title' onChange={Handlechange}/>
     <Form.Label  style={{ color:'white'}}>posterUrl</Form.Label>
     <Form.Control type="text" placeholder="posterUrl" name='posterUrl' onChange={Handlechange} />
+    <Form.Label  style={{ color:'white'}}>trailerUrl</Form.Label>
+    <Form.Control type="text" placeholder="trailerUrl" name='trailerUrl' onChange={Handlechange} />
     <Form.Label  style={{ color:'white'}}>Rating</Form.Label>
     <Form.Control type="text" placeholder="Rating" name='rating' onChange={Handlechange} />
     

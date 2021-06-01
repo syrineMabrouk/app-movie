@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+
 .moviegrid{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -50,4 +54,18 @@
 }
 .btn{
     margin-Left:60px
+}
+
+.cardDesc{
+
+    width:37rem;
+    height: 750px;
+    text-align: center;
+margin :0 auto;
+box-shadow: 10 8px 16px 0 rgba(238, 231, 231, 0.2);
+font-family: 'Merienda', cursive;
+}
+
+.cardDesc:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
